@@ -27,7 +27,7 @@ const Characters = ({ token, setUser }) => {
         const response = await axios.get(
           `https://site--marvel-backend--x8bwsvjswy7s.code.run/characters`,
           {
-            headers: { Authorization: `Bearer ${token}` },
+            headers: token ? { Authorization: `Bearer ${token}` } : {},
             params: { name: search, page },
           }
         );

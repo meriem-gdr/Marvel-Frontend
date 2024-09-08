@@ -27,7 +27,7 @@ const Comics = ({ token, setUser }) => {
         const response = await axios.get(
           `https://site--marvel-backend--x8bwsvjswy7s.code.run/comics`,
           {
-            headers: { Authorization: `Bearer ${token}` },
+            headers: token ? { Authorization: `Bearer ${token}` } : {},
             params: { title: search, page },
           }
         );
