@@ -1,0 +1,57 @@
+.header-container {
+  background-color: #e60000;
+}
+
+.header {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.header-left {
+  display: flex;
+  gap: 16px;
+}
+
+.header-logo {
+  object-fit: contain;
+}
+
+.header-search {
+  font-family: "Bangers", sans-serif;
+  width: 170px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button-primary {
+  background-color: white;
+  color: #e60000;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #ffe6e6;
+  color: #ee171f;
+}
+
+.button-secondary {
+  background-color: #e60000;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color: #b30000;
+}

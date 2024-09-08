@@ -1,0 +1,83 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  aspect-ratio: 400 / 300;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.card-name {
+  font-family: "Bangers", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #e60000;
+}
+
+.icon-button {
+  width: 2.25rem;
+  height: 2.25rem;
+  background: none;
+  border: none;
+  color: #e60000;
+  cursor: pointer;
+}
+
+.icon-button.loading {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.icon-button.loading:hover {
+  background-color: transparent;
+}
+
+.icon-button:hover {
+  background-color: rgba(230, 36, 41, 0.1);
+}
+
+.heart-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.card-text {
+  color: #d1d5db;
+}
+
+.card-footer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1rem;
+}
+
+.button-secondary {
+  background-color: #e60000;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color: #b30000;
+}

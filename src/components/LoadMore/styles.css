@@ -1,0 +1,18 @@
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button-secondary {
+  background-color: #e60000;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color: #b30000;
+}
